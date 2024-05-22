@@ -1,0 +1,70 @@
+.contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Align items at the start of the cross axis */
+    padding: 50px 0px;
+    padding-left: 330px;
+}
+
+.contact-info,
+.contact-form {
+    flex: 1;
+    color: rgb(255, 255, 255);
+    padding: 40px;
+    background: linear-gradient(to bottom, #290e0c, #63332b, #3e2424);
+    border-radius: 10px;
+    margin: 0 10px; /* Add some spacing between the contact info and form */
+}
+
+.contact-item {
+    margin-bottom: 10px;
+}
+
+.contact-item svg {
+    margin-right: 10px;
+    
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.form-group {
+    margin-bottom: 20px;
+    
+}
+
+label {
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.footer {
+    margin-top: 50px;
+    text-align: center;
+}

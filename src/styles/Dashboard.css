@@ -1,0 +1,166 @@
+/* App.css */
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #ffffff;
+  }
+
+  .logo {
+    display: flex;
+    margin-top: 20px;
+  }
+  
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 250px;
+    background: linear-gradient(to bottom, #290e0c, #63332b, #3e2424);
+    color: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .navbar-brand {
+    font-size: 2.5em;
+    margin-left: 20px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+  }
+  
+  .navbar-links img {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .home-icon-container {
+    display: flex;
+    align-items: center; 
+  }
+  
+  .contact-icon-container {
+    display: flex;
+    align-items: center; 
+  }
+
+  .about-icon-container {
+    display: flex;
+    align-items: center; 
+  }
+  .logout-icon-container {
+    display: flex;
+    align-items: center; 
+  }
+  
+  .icon-text {
+    margin-left: 12px;
+    margin-bottom: 35px;
+    font-size: small;
+  }
+  
+  
+  .navbar-links a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 20px;
+    margin-left: 30px;
+  }
+  
+  .navbar-links a:hover {
+    color: #e2d5d5fa; 
+  }
+  
+  .navbar-links a[disabled] {
+    color: #888;
+    pointer-events: none;
+  }
+  
+
+
+.card-container {
+  display: fixed ;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 80px; 
+  margin-left: 200px; 
+  margin-bottom: 100px;
+  color: #fff;
+  font-size: small;
+  
+  
+}
+
+.card {
+  width: 500px; 
+  background: linear-gradient(to bottom, #290e0c, #63332b, #3e2424);
+  font-size: medium;
+}
+
+.card-body {
+  padding: 100px; 
+  font-size: medium;
+  
+}
+
+.chart-container {
+  margin-bottom: 200px; 
+  
+  
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  color: black;
+  background-color: #030303;
+  padding: 10px 20px;
+  text-align: center;
+  font-weight: bold;
+  font-size: large;
+}
+
+
+.footer p
+{
+  color: white;
+  font-size: small;
+}
+
+
+.add-listing-button:hover {
+  background-color: brown;
+}
+
+
+/* Main container */
+.about-container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 0 20px;
+  background: linear-gradient(to bottom, #290e0c, #63332b, #3e2424);
+  color: #fff;
+}
+
+.about-info {
+  text-align: center;
+}
+
+.about-info h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.about-info p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
